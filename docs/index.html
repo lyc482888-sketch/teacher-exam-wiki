@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="教甄筆記：有來源、有連結，持續累積的教育心理學 LLM Wiki。">
+<title>教甄筆記</title><link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTE2IDhDMTIgNSA3IDUgMyA3djE5YzQtMiA5LTIgMTMgMSA0LTMgOS0zIDEzLTFWN2MtNC0yLTktMi0xMyAxWiIgc3Ryb2tlPSIjMzQ2ZDY0IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMTYgOHYxOU03IDExYzItMSA0LTEgNiAwTTE5IDExYzItMSA0LTEgNiAwTTcgMTZjMi0xIDQtMSA2IDBNMTkgMTZjMi0xIDQtMSA2IDAiIHN0cm9rZT0iIzM0NmQ2NCIgc3Ryb2tlLXdpZHRoPSIxLjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==">
+<link rel="stylesheet" href="style.css"><script defer src="data.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到筆記內容</a>
+<aside class="sidebar">
+ <a class="brand" href="#"><span class="brand-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><path d="M16 8C12 5 7 5 3 7v19c4-2 9-2 13 1 4-3 9-3 13-1V7c-4-2-9-2-13 1Z" stroke="#346d64" stroke-width="2" stroke-linejoin="round"/><path d="M16 8v19M7 11c2-1 4-1 6 0M19 11c2-1 4-1 6 0M7 16c2-1 4-1 6 0M19 16c2-1 4-1 6 0" stroke="#346d64" stroke-width="1.6" stroke-linecap="round"/></svg></span><span>教甄筆記<small>TEACHER EXAM NOTES</small></span></a>
+ <p class="nav-label">我的學習書架</p>
+ <nav aria-label="主要導覽">
+ <button class="nav-item active" data-view="all"><span>▦</span> 全部筆記 <b id="allCount">50</b></button>
+ <button class="nav-item" data-view="bookmarks"><span>☆</span> 我的收藏 <b id="bookmarkCount">0</b></button>
+ <button class="nav-item" data-view="unread"><span>◷</span> 尚未讀過 <b id="unreadCount">50</b></button>
+ <a class="nav-item" href="#coverage"><span>▱</span> PDF 章節對照</a>
+ <a class="nav-item" href="#source"><span>▤</span> 來源與更新</a>
+ </nav>
+ <div class="sidebar-note"><span aria-hidden="true">🐧</span><p>一次弄懂一個概念，<br>就是往前走了一步。</p><small>把零散知識，慢慢連起來。</small></div>
+ <div class="sidebar-bottom"><span class="dot"></span> 個人的、持續生長的知識庫<small>閱讀紀錄僅儲存在此瀏覽器</small></div>
+</aside>
+<main id="main">
+ <header class="topbar"><span>學習書架 <i>/</i> 教育心理學</span><span class="edition">全書章節整理 · 2026.11</span></header>
+ <section class="hero">
+  <div><div class="eyebrow">A LITTLE EVERY DAY</div><h1>讀懂概念，<br><em>也連起知識。</em></h1><p>從教育心理學出發，整理理論、比較差異，<br class="desktop">把每一次複習，累積成自己的教甄筆記。</p><a class="primary" href="#library">開始今天的複習 <span>↗</span></a></div>
+  <div class="notebook" aria-hidden="true"><div class="paper-back"></div><div class="paper"><div class="paper-label">MY LEARNING NOTES</div><div class="paper-title">教育心理學</div><div class="paper-sub">不只是記住，而是理解。</div><div class="mini-map"><span>認知發展</span><b>＋</b><span>學習理論</span><b>↓</b><span class="wide">教學現場的理解</span></div><div class="paper-footer">一頁一頁，靠近理想的自己。 <span>✦</span></div></div><span class="tape"></span></div>
+ </section>
+ <section class="stats" aria-label="筆記統計"><div><b id="noteCount">50</b><span>篇主題筆記</span></div><div><b id="comparisonCount">3</b><span>篇比較統整</span></div><div><b id="readCount">0</b><span>篇已讀筆記</span></div><div class="progress-stat"><span>你的複習進度 <strong id="percent">0%</strong></span><div class="progress-track"><div id="progressBar"></div></div></div></section>
+ <section id="library" class="library">
+  <div class="section-head"><div class="eyebrow">THE KNOWLEDGE SHELF</div><h2 id="viewTitle">今天，想弄懂哪個概念？</h2><p>涵蓋 121 頁講義主要章節；每篇附來源頁碼、Markdown 與自編題。</p></div>
+  <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋學者、概念或關鍵字，例如：調適" aria-label="搜尋所有筆記全文"><kbd>/</kbd></label>
+  <div class="filter-row" role="group" aria-label="筆記分類"><button class="chip active" data-category="all" aria-pressed="true">全部主題</button><button class="chip" data-category="認知發展" aria-pressed="false">認知發展</button><button class="chip" data-category="學習理論" aria-pressed="false">學習理論</button><button class="chip" data-category="學習動機" aria-pressed="false">學習動機</button><button class="chip" data-category="比較統整" aria-pressed="false">比較統整</button></div>
+  <div class="list-meta"><span id="resultCount" role="status" aria-live="polite"></span><span>每篇約 3–5 分鐘 · 可下載筆記</span></div>
+  <div id="cards" class="cards"></div><div id="empty" class="empty" hidden><span>⌕</span><h3>這裡暫時沒有筆記</h3><p id="emptyMessage">試試不同的關鍵字或分類。</p><button id="reset" class="secondary">顯示全部筆記</button></div>
+ </section>
+ <section class="wiki-note"><span class="wiki-symbol">↔</span><div><h3>讓知識持續累積的筆記庫</h3><p>保留原始來源，依規則整理概念，再把相關知識連起來。新資料進來時，更新的是整個知識脈絡。</p></div><a href="#source">了解來源與規則 ↗</a></section>
+ <footer>教甄筆記 <span>個人學習整理</span></footer>
+</main>
+<dialog id="detail" aria-labelledby="detailTitle"><div class="dialog-bar"><span id="dialogLabel">閱讀筆記</span><button id="closeDetail" class="close" aria-label="關閉筆記">×</button></div><article id="detailBody"></article></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>

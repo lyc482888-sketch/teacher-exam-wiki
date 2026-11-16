@@ -1,0 +1,47 @@
+---
+id: "intelligence-theories"
+title: "智力理論：二因、群因、階層與結構"
+category: "智力與資優"
+type: "concept"
+summary: "用「共同能力、基本能力、階層、三向度」整理不同模型。"
+tags: ["Spearman", "Thurstone", "Guilford", "Cattell"]
+source_id: "edu-psych-01"
+pages: [113, 114, 115, 116]
+related: ["multiple-intelligences", "triarchic-intelligence", "educational-effects"]
+updated: "2026-11-16"
+question: "內容、運作與產物三向度對應哪位學者？"
+options: ["Rogers", "Erikson", "Guilford", "Maslow"]
+answer: 2
+explanation: "智力結構論以內容、運作和產物組合能力。"
+---
+
+# 智力理論：二因、群因、階層與結構
+
+## 核心概念
+
+講義先區分智力、性向和成就，再介紹心理計量取向的多種模型。各模型用不同方式組織能力，不能混成同一套數量。
+
+## 重點整理
+
+| 理論 | 學者 | 關鍵線索 |
+| --- | --- | --- |
+| 二因論 | Spearman | 一般 g 與特殊 s |
+| 群因論 | Thurstone | 多種基本心智能力 |
+| 階層論 | Vernon | 一般因素之下有不同群因素 |
+| 智力結構 | Guilford | 內容、運作、產物 |
+| 流體／晶體 | Cattell、Horn | 新問題推理／累積知識技能 |
+
+- **成就**是目前表現；**性向**關注接受學習後的發展可能。
+- 測驗分數是操作性指標，不是個人全部價值。
+
+## 教學實例（AI 自編）
+
+學生詞彙知識豐富，但面對全新圖形規律題仍需時間；可用來區分累積知識與新情境推理。
+
+## 易混淆提醒
+
+不把流體智力說成完全不受環境影響；Guilford 的因素數量也隨理論版本改變，重點先掌握三向度。
+
+## 來源與查證
+
+依 [教育心理學來源摘要](../sources/edu-psych-01.md)，PDF 第 113、114、115、116 頁整理。教學情境與檢核題為自編，並非歷屆試題。
